@@ -26,6 +26,7 @@
 
   * [Elzero Web School - HTML & CSS](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzLyvrWPwMw6bbBlTwPxgLF)
   * [Elzero Web School - JavaScript](https://www.youtube.com/playlist?list=PLDoPjvoNmBAwH_PpK3JLz2G4y4rV8yL5t)
+  * [Syntax Error - HTML5](https://www.youtube.com/playlist?list=PLNFDrRZdysFwg3wLjWCA3XOhdlqgJ5fnl)
 
 ### 💻 Practice Project
 
