@@ -1,2 +1,8 @@
-# MERN_stack
-A personal repo to document my MERN stack learning journey. Includes mini-projects, code examples, and notes using MongoDB, Express.js, React.js, and Node.js. Covers full-stack CRUD apps, APIs, authentication, and more. Ideal for practice and building real-world skills.
+# 📚 MERN Stack Learning Repository
+
+Welcome to my personal MERN stack learning repo! This project documents my journey in mastering the **MERN stack** — **MongoDB**, **Express.js**, **React.js**, and **Node.js** — to build modern full-stack web applications.
+
+---
+
+## 📁 Folder Structure
+
