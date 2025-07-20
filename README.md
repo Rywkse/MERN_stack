@@ -1,4 +1,4 @@
-# 💥 ⚡ Ultimate MERN Stack Roadmap (with Free + GitHub Student Pack Resources) ⚡ 💥
+# 💥 ⚡ Ultimate MERN Stack Roadmap (with Free Resources) ⚡ 💥
 
 ---
 
