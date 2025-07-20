@@ -19,15 +19,16 @@
 
 * **English:**
 
-  * [freeCodeCamp Full Stack Developer](https://www.freecodecamp.org/learn/full-stack-developer/)
   * [freeCodeCamp Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+  * [freeCodeCamp Full Stack Developer](https://www.freecodecamp.org/learn/full-stack-developer/)
   * [JavaScript 30 (by Wes Bos)](https://javascript30.com/)
-  * [MDN Docs (HTML, CSS, JS)](https://developer.mozilla.org/en-US/)
 * **Arabic:**
 
   * [Elzero Web School - HTML & CSS](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzLyvrWPwMw6bbBlTwPxgLF)
   * [Elzero Web School - JavaScript](https://www.youtube.com/playlist?list=PLDoPjvoNmBAwH_PpK3JLz2G4y4rV8yL5t)
   * [Syntax Error - HTML5](https://www.youtube.com/playlist?list=PLNFDrRZdysFwg3wLjWCA3XOhdlqgJ5fnl)
+  * [Syntax Error - CSS](https://youtube.com/playlist?list=PLNFDrRZdysFzVXKVsEbvkKP98VRoTg9fo&si=EPB9bZ4G-MXomxmV)
+  * [Syntax Error - JS](https://youtube.com/playlist?list=PLNFDrRZdysFx-eu67uE0T0Erj2qx6lYjQ&si=aHRRriSujkJdhKUJ)
 
 ### 💻 Practice Project
 
@@ -55,6 +56,8 @@
   * [freeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 * **Arabic:**
 
+  * [Syntax Error - Advanced JS](https://youtube.com/playlist?list=PLNFDrRZdysFwcQP3BDTFTa7eBownJWOBk&si=hwozd3_GHwggJAQr)
+  * [Syntax Error - ES6](https://youtube.com/playlist?list=PLNFDrRZdysFxt_Ih4hl0C3r-fmVnaUjja&si=QM2CCCa0lwrZitgE)
   * [Elzero Advanced JS playlist](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzH72MTPuAAaYfReraNlQgM)
 
 ### 💻 Practice Project
