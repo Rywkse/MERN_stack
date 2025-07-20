@@ -24,8 +24,7 @@
   * [JavaScript 30 (by Wes Bos)](https://javascript30.com/)
 * **Arabic:**
 
-  * [Elzero Web School - HTML & CSS](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzLyvrWPwMw6bbBlTwPxgLF)
-  * [Elzero Web School - JavaScript](https://www.youtube.com/playlist?list=PLDoPjvoNmBAwH_PpK3JLz2G4y4rV8yL5t)
+  * [Elzero Web School - HTML & CSS & JS](https://youtube.com/playlist?list=PLDoPjvoNmBAzhFD3niPAa1C1gXG4cs14J&si=CQIBXyXxUXVz81Lo)
   * [Syntax Error - HTML5](https://www.youtube.com/playlist?list=PLNFDrRZdysFwg3wLjWCA3XOhdlqgJ5fnl)
   * [Syntax Error - CSS](https://youtube.com/playlist?list=PLNFDrRZdysFzVXKVsEbvkKP98VRoTg9fo&si=EPB9bZ4G-MXomxmV)
   * [Syntax Error - JS](https://youtube.com/playlist?list=PLNFDrRZdysFx-eu67uE0T0Erj2qx6lYjQ&si=aHRRriSujkJdhKUJ)
