@@ -19,6 +19,7 @@
 
 * **English:**
 
+  * [freeCodeCamp Full Stack Developer](https://www.freecodecamp.org/learn/full-stack-developer/)
   * [freeCodeCamp Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/)
   * [JavaScript 30 (by Wes Bos)](https://javascript30.com/)
   * [MDN Docs (HTML, CSS, JS)](https://developer.mozilla.org/en-US/)
