@@ -19,7 +19,7 @@
 
 * **English:**
 
-  * [freeCodeCamp Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+  * [freeCodeCamp Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design)
   * [freeCodeCamp Full Stack Developer](https://www.freecodecamp.org/learn/full-stack-developer/)
   * [JavaScript 30 (by Wes Bos)](https://javascript30.com/)
 * **Arabic:**
