@@ -2,58 +2,129 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Form</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <h1>Survey Form</h1>
-    <p>Could you help yourself and fill this form</p>
-    <form id="survey-form">
-        <fieldset>
-            <label for="full-name">Enter your full name: <input id="full-name" name="full-name" type="text"
-                    required></label>
-            <label for="email">Enter your Email: <input id="email" name="email" type="email" required></label>
-            <label for="age">Enter your Age: <input id="age" name="age" type="number" min="15" max="60"></label>
-        </fieldset>
-        <fieldset>
-            <label for="status">
-                What is your status:
-                <select id="status" name="status">
-                    <option value="">(select one)</option>
-                    <option value="1">Full-Time Work</option>
-                    <option value="2">Part-Time Work</option>
-                    <option value="4">Unemployed</option>
-                    <option value="3">Student</option>
-                </select>
-            </label>
-            <legend>Why do you programe?</legend>
-            <label for="money"><input id="money" name="status" type="radio" class="inline" checked />For Money</label>
-            </label>
-            <label for="love"><input id="love" name="status" type="radio" class="inline" />For Love</label>
-            </label>
-            <label for="no-comment"><input id="no-comment" name="status" type="radio" class="inline" />No
-                Comment</label>
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>What is your Tools</legend>
-            <label for="html"><input id="html" name="html" type="checkbox" />HTML</label>
-            <label for="css"><input id="css" name="css" type="checkbox" />CSS</label>
-            <label for="js"><input id="js" name="js" type="checkbox" />JS</label>
-            <label for="cpp"><input id="cpp" name="cpp" type="checkbox" />C++</label>
-            <label for=".net"><input id=".net" name=".net" type="checkbox" />.NET</label>
-            <label for="git"><input id="git" name="git" type="checkbox" />GIT</label>
-        </fieldset>
-        <fieldset>
-            <label for="bio">
-                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Iam a cat person..."></textarea>
-            </label>
-        </fieldset>
-        <input type="submit" value="Submit" />
-    </form>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Could you help yourself and fill this form</p>
+
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">Enter your full name:
+        <input
+          id="name"
+          name="name"
+          type="text"
+          required
+          placeholder="John Doe"
+        />
+      </label>
+
+      <label id="email-label" for="email">Enter your Email:
+        <input
+          id="email"
+          name="email"
+          type="email"
+          required
+          placeholder="you@example.com"
+        />
+      </label>
+
+      <label id="number-label" for="number">Enter your Age:
+        <input
+          id="number"
+          name="age"
+          type="number"
+          min="15"
+          max="60"
+          required
+          placeholder="25"
+        />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Why do you program?</legend>
+
+      <label for="money">
+        <input id="money" name="reason" type="radio" class="inline" value="money" checked />
+        For Money
+      </label>
+
+      <label for="love">
+        <input id="love" name="reason" type="radio" class="inline" value="love" />
+        For Love
+      </label>
+
+      <label for="no-comment">
+        <input id="no-comment" name="reason" type="radio" class="inline" value="no-comment" />
+        No Comment
+      </label>
+
+      <label for="dropdown">
+        What is your employment status:
+        <select id="dropdown" name="employment-status" required>
+          <option value="">(select one)</option>
+          <option value="full-time">Full-Time Work</option>
+          <option value="part-time">Part-Time Work</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="student">Student</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>What are your tools?</legend>
+
+      <label for="html">
+        <input id="html" name="tools[]" type="checkbox" value="HTML" />
+        HTML
+      </label>
+
+      <label for="css">
+        <input id="css" name="tools[]" type="checkbox" value="CSS" />
+        CSS
+      </label>
+
+      <label for="js">
+        <input id="js" name="tools[]" type="checkbox" value="JavaScript" />
+        JS
+      </label>
+
+      <label for="cpp">
+        <input id="cpp" name="tools[]" type="checkbox" value="C++" />
+        C++
+      </label>
+
+      <label for="dotnet">
+        <input id="dotnet" name="tools[]" type="checkbox" value=".NET" />
+        .NET
+      </label>
+
+      <label for="git">
+        <input id="git" name="tools[]" type="checkbox" value="Git" />
+        GIT
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label for="bio">Tell us about yourself:
+        <textarea
+          id="bio"
+          name="bio"
+          rows="3"
+          cols="30"
+          placeholder="I am a cat person..."
+        ></textarea>
+      </label>
+    </fieldset>
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
 </body>
 
 </html>

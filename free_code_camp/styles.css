@@ -1,20 +1,25 @@
+/* GitHub Dark Mode Inspired Styles */
+
 body {
     height: 100%;
     width: 100vw;
     margin: 0;
-    background-image: url('https://images.unsplash.com/photo-1634634465913-5bb5600942f2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    padding: 0;
+    background-color: #0d1117;
+    background-image: url('https://images.unsplash.com/photo-1617791160536-598cf32026fb?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    color: #f5f6f7;
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
     font-size: 16px;
+    color: #c9d1d9;
 }
 
 h1,
 p {
     margin: 1em auto;
     text-align: center;
+    color: #c9d1d9;
 }
 
 form {
@@ -23,58 +28,90 @@ form {
     min-width: 300px;
     margin: 0 auto;
     padding: 2em;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: #161b22;
+    border: 1px solid #30363d;
     border-radius: 1em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
 }
 
 fieldset {
     border: none;
     padding: 2rem 0;
-    border-bottom: 3px solid #3b3b4f;
+    border-bottom: 1px solid #30363d;
 }
 
 fieldset:last-of-type {
     border-bottom: none;
 }
 
+legend {
+    color: #58a6ff;
+    font-weight: bold;
+}
+
 label {
     display: block;
     margin: 0.5rem 0;
+    color: #8b949e;
 }
 
 input,
 textarea,
 select {
-    margin: 10px 0 0 0;
+    margin-top: 10px;
     width: 100%;
     min-height: 2em;
+    padding: 0.5em;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+    border-radius: 4px;
+    caret-color: #58a6ff;
 }
 
+::placeholder {
+    color: #8b949e;
+    opacity: 0.8;
+}
+
+input[type="radio"],
 input[type="checkbox"] {
     width: auto;
-    min-height: unset;
-}
-
-input,
-textarea {
-    background-color: #0a0a23;
-    border: 1px solid #0a0a23;
-    color: #ffffff;
+    margin-right: 0.5em;
+    accent-color: #58a6ff;
 }
 
 .inline {
     width: unset;
-    margin: 0 0.5em 0 0;
     vertical-align: middle;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #58a6ff;
+    outline-offset: 2px;
+}
+
+button[type="submit"],
 input[type="submit"] {
     display: block;
     width: 60%;
-    margin: 1em auto;
-    height: 2em;
+    margin: 1.5em auto 0;
+    height: 2.5em;
     font-size: 1.1rem;
-    background-color: #3b3b4f;
-    border-color: white;
     min-width: 300px;
+    background-color: #238636;
+    border: 2px solid #2ea043;
+    color: #ffffff;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+    background-color: #2ea043;
+    box-shadow: 0 0 15px #2ea043;
 }
