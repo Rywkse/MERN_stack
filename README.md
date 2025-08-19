@@ -252,6 +252,44 @@
 * Get feedback
 * Build network
 
+## 🎨Phase 10: Design Roadmap (for Web Developers)
+
+While mastering the MERN stack (MongoDB, Express, React, Node.js) gives you the power to build full applications, learning design will make your projects **look professional and user-friendly**.  
+
+### 📌 Goals
+- Understand **UI/UX fundamentals**: color theory, typography, spacing, and layout.  
+- Learn to use modern design tools like **Figma**.  
+- Apply design principles directly to MERN projects.  
+
+### 🛠 What to Learn
+1. **Design Basics**
+   - Visual hierarchy & white space  
+   - Color combinations & contrast  
+   - Typography (choosing and pairing fonts)  
+
+2. **UI/UX Concepts**
+   - Wireframing and prototyping in Figma  
+   - Accessibility & responsive design  
+   - Reusable components and design systems  
+
+3. **Practical Application**
+   - Redesigning simple sites to practice layouts  
+   - Adding clean UI to MERN projects with Tailwind CSS or Material UI  
+   - Reviewing designs on communities (Dribbble, Reddit r/web_design)  
+
+### 🎯 Suggested Resources
+- [Canva Design School](https://www.canva.com/learn/design/) – Beginner-friendly design lessons  
+- [FreeCodeCamp UI Design Course (YouTube)](https://www.youtube.com/watch?v=_hp_xsUg9wU)  
+- [Figma](https://www.figma.com/) – Free tool for UI/UX design  
+- [Daily UI Challenges](https://www.dailyui.co/) – Practice design consistently  
+
+---
+
+👉 My approach:  
+- **80% time** → MERN stack (main focus)  
+- **20% time** → Design practice (so every project also looks great)  
+
+
 ### ✅ Communities
 
 * [Dev.to](https://dev.to/)
