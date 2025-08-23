@@ -83,6 +83,7 @@
 
   * [Git Handbook](https://guides.github.com/introduction/git-handbook/)
   * [Git & GitHub Crash Course — Traversy Media](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+  * [GitHub Foundation Certificate](https://education.github.com/experiences/foundations_certificate)
 * **Arabic:**
 
   * [Elzero Git & GitHub](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzLyvrWPwMw6bbBlTwPxgLF)
