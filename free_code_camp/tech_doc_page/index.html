@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>HTML Basics</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#HTML_Elements">HTML Elements</a>
+        <a class="nav-link" href="#Attributes">Attributes</a>
+        <a class="nav-link" href="#Headings_and_Paragraphs">Headings and Paragraphs</a>
+        <a class="nav-link" href="#Lists">Lists</a>
+        <a class="nav-link" href="#Links_and_Images">Links and Images</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>What is HTML? (HyperText Markup Language, backbone of web pages).</p>
+            <p>Why it’s important for structuring web content.</p>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;My First Page&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;p&gt;Hello World!&lt;/p&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+            <ul>
+                <li>HTML defines the structure of web pages</li>
+                <li>Works with CSS for styling</li>
+                <li>Works with JavaScript for interactivity</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="HTML_Elements">
+            <header>HTML Elements</header>
+            <p>HTML elements are the building blocks of web pages.</p>
+            <p>Difference between opening and closing tags.</p>
+            <code>
+                &lt;h1&gt;This is a heading&lt;/h1&gt;
+                &lt;p&gt;This is a paragraph&lt;/p&gt;
+            </code>
+            <ul>
+                <li>&lt;h1&gt; – heading</li>
+                <li>&lt;p&gt; – paragraph</li>
+                <li>&lt;div&gt; – container</li>
+                <li>&lt;span&gt; – inline text</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Attributes">
+            <header>Attributes</header>
+            <p>Attributes give extra information about elements.</p>
+            <p>Common ones: id, class, href, src, alt.</p>
+            <code>
+                &lt;img src="image.jpg" alt="Description of image"&gt;
+            </code>
+            <ul>
+                <li>id → unique identifier</li>
+                <li>class → group of elements</li>
+                <li>src → source for media</li>
+                <li>href → link destination</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Headings_and_Paragraphs">
+            <header>Headings and Paragraphs</header>
+            <p>HTML provides 6 heading levels (&lt;h1&gt;–&lt;h6&gt;).</p>
+            <p>Paragraphs are added with &lt;p&gt;.</p>
+            <code>
+                &lt;h1&gt;Main Title&lt;/h1&gt;
+                &lt;h2&gt;Subtitle&lt;/h2&gt;
+                &lt;p&gt;This is a paragraph explaining something.&lt;/p&gt;
+            </code>
+            <ul>
+                <li>&lt;h1&gt; → largest heading</li>
+                <li>&lt;h6&gt; → smallest heading</li>
+                <li>&lt;p&gt; → normal text block</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Lists">
+            <header>Lists</header>
+            <p>HTML supports ordered (&lt;ol&gt;) and unordered (&lt;ul&gt;) lists.</p>
+            <code>
+                &lt;ul&gt;
+                    &lt;li&gt;Apples&lt;/li&gt;
+                    &lt;li&gt;Bananas&lt;/li&gt;
+                    &lt;li&gt;Cherries&lt;/li&gt;
+                &lt;/ul&gt;
+            </code>
+            <ul>
+                <li>Unordered lists → &lt;ul&gt;&lt;/ul&gt;</li>
+                <li>Ordered lists → &lt;ol&gt;&lt;/ol&gt;</li>
+                <li>List item → &lt;li&gt;&lt;/li&gt;</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Links_and_Images">
+            <header>Links and Images</header>
+            <p>Links are made with &lt;a&gt; and images with &lt;img&gt;.</p>
+            <p>Always use alt for images (accessibility).</p>
+            <code>
+                &lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+                &lt;img src="photo.jpg" alt="A sample photo"&gt;
+            </code>
+            <ul>
+                <li>&lt;a&gt; → hyperlink</li>
+                <li>href → link URL</li>
+                <li>&lt;img&gt; → image tag</li>
+                <li>alt → text description</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
